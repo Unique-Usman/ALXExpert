@@ -16,30 +16,30 @@ export default function Main() {
     return (
         <div className="main">
             <div className="nav">
-                <p>SuperVaani</p>
+                <p>ALXExpert</p>
                 <img src={assets.user_icon} alt="" />
             </div>
             <div className="main-container">
                 {!showResult ? <>
                     <div className="greet">
-                        <p><span>Welcome to SuperVaani...</span></p>
-                        <p>Curious About Plaksha? Ask now!</p>
+                        <p><span>Welcome to ALXExpert...</span></p>
+                        <p>Curious About ALX? Ask now!</p>
                     </div>
                     <div className="cards">
                         <div className="card">
-                            <p>Who are the professor in Machine Learning</p>
+                            <p>Who are the mentors in ALX Software Engineering programme</p>
                             <img src={assets.bulb_icon} alt="" />
                         </div>
                         <div className="card">
-                            <p>What are the Student Club on Campus</p>
+                            <p>What is the Current Cohort in ALX Software Engineering programme</p>
                             <img src={assets.code_icon} alt="" />
                         </div>
                         <div className="card">
-                            <p>What are the Laundry Timing</p>
+                            <p>What are PLDs?</p>
                             <img src={assets.message_icon} alt="" />
                         </div>
                         <div className="card">
-                            <p>Who is Anupam Sobti</p>
+                            <p>Who is Irene Aragona?</p>
                             <img src={assets.compass_icon} alt="" />
                         </div>
                     </div> </> : <div className="result">
@@ -68,7 +68,7 @@ export default function Main() {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        SuperVaani may display inacurate information, so double-check its response. Report any error to the Supervani team.
+                        ALXExpert may display inacurate information, so double-check its response. Report any error to the Supervani team.
                     </p>
                 </div>
             </div>
