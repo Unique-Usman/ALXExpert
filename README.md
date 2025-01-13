@@ -3,7 +3,7 @@
 **🌐 Website:** [alx-expert.tech](https://alx-expert.tech)  
 **📂 GitHub Repository:** [ALXExpert GitHub](https://github.com/Unique-Usman/ALXExpert)
 
-![ALXExpert Banner](https://github.com/Unique-Usman/ALXExpert/alx-expert.png)
+![ALXExpert Banner](https://github.com/Unique-Usman/ALXExpert/blob/main/alx-expert.png)
 
 ## 📝 Table of Contents
 - 🔍 [Project Overview](#project-overview)
