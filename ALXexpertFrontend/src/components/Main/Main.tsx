@@ -15,6 +15,14 @@ export default function Main() {
     onSent,
   } = useContext(Context);
 
+  const handleClick = (e:any) => {
+    // Access the clicked element's <p> tag content
+    const paragraphContent = e.currentTarget.querySelector('p').textContent;
+    console.log(paragraphContent); // Log the content
+    setInput(paragraphContent); // Set the input value to the content
+  };
+
+
   return (
     <div className="main">
       <div className="nav">
@@ -31,19 +39,19 @@ export default function Main() {
               <p>Curious About ALX? Ask now!</p>
             </div>
             <div className="cards">
-              <div className="card">
+              <div className="card" onClick={handleClick}>
                 <p>What is ALX About ?</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
-              <div className="card">
+              <div className="card" onClick={handleClick}>
                 <p>Is there any Student Support ?</p>
                 <img src={assets.code_icon} alt="" />
               </div>
-              <div className="card">
+              <div className="card" onClick={handleClick}>
                 <p>What are the courses offered ALX</p>
                 <img src={assets.message_icon} alt="" />
               </div>
-              <div className="card">
+              <div className="card" onClick={handleClick}>
                 <p>How much does ALX Charge ?</p>
                 <img src={assets.compass_icon} alt="" />
               </div>
