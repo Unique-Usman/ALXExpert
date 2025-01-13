@@ -26,7 +26,7 @@ export default function Main() {
           <>
             <div className="greet">
               <p>
-                <span>Welcome to ALExpert...</span>
+                <span>Welcome to ALXExpert...</span>
               </p>
               <p>Curious About ALX? Ask now!</p>
             </div>
